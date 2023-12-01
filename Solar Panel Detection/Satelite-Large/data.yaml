@@ -1,0 +1,13 @@
+train: /content/drive/My Drive/Solar Panel Detection/train/images
+val: /content/drive/My Drive/Solar Panel Detection/valid/images
+test: /content/drive/My Drive/Solar Panel Detection/test/images
+
+nc: 1
+names: ['solar-panel']
+
+roboflow:
+  workspace: project
+  project: solar-panel-detection-yxuwb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/solar-panel-detection-yxuwb/dataset/1
